@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    width: 80%;
+    height:90vh;
+    margin-left: 10%;
+}
+div{
+    background-color: chartreuse;
+    width: 80%;
+    height:50vh;
+    margin-left: 10%;
+}
