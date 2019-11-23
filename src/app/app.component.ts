@@ -9,12 +9,7 @@ export class AppComponent {
   isActive: boolean = false;
 
     changeColor(){
-      if(this.isActive == false) {
-        this.isActive = true;
-      }
-      else if(this.isActive == true){
-        this.isActive = false;
-      }
+      this.isActive = !this.isActive;
     }
 }
 
